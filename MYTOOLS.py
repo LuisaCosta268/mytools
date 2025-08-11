@@ -7,7 +7,8 @@ def pi_real(n):
         casas_desejadas = int(PI_INT[:n])
         casa_decimal = casas_desejadas * (10 ** (-n))
         pi = 3 + casa_decimal
-        print(pi)
+        
+        return pi
 
     else:
         print("Escolha um número válido para o 'n'.")
@@ -18,7 +19,8 @@ def e_real(n):
         casas_desejadas = int(E_INT[:n])
         casa_decimal = casas_desejadas * (10 ** (-n))
         e = 2 + casa_decimal
-        print(e)
+        
+        return e
 
     else:
         print("Escolha um número válido para o 'n'.")
